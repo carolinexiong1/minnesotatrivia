@@ -1,0 +1,69 @@
+function getInfo() {
+	window.numberOfQuestions = 	10;
+	window.currentSlide = 		0;
+	window.currentScore = 		0;
+	window.title = 				"MINNESOTA TRIVIA";
+	window.questions = [		"WHAT IS THE MINNESOTA STATE FISH?", 
+								"MINNESOTA IS COMMONLY KNOWN AS THE WHAT STATE",
+								"WHAT CITY IS THE CAPITAL OF MINNESOTA", 
+								"WHAT IS THE MINNESOTA STATE FRUIT?",
+								"WHAT IS THE MINNESOTA STATE TREE?",
+								"WHAT IS THE MINNESOTA STATE DRINK?",
+								"WHAT IS THE MINNESOTA STATE FLOWER?",
+								"NAME THE PROCESSED MEAT PRODUCT THAT IS MANUFACTURED IN AUSTIN, MN",
+								"WHEN DID MINNESOTA BECAME A STATE?",
+								"WHAT IS THE AREA OF MINNESOTA" ];
+	window.correctAnswer = [ 	"C", "A", "B", "D", "B", "A", "D", "C", "B", "A" ]; 
+	window.answerA = [ 					"SMALL-MOUTH BASS", 
+								"LAND OF 10,000 LAKES",  
+								"DULUTH",
+								"KIWI",
+								"SILVER MAPLE",
+								"MILK",
+								"TULIPS",
+								"SALAMI", 
+								"JULY 2, 1842",
+								"86,936 SQ MI" ];
+	window.answerB = [ 					"BLUE GILL(SUNFISH)", 
+								"SUNSHINE STATE",  
+								"SAINT PAUL",
+								"PEACH",
+								"RED PINE",
+								"PEPSI",
+								"LILY",
+								"BOLOGNA", 
+								"MAY 11, 1858",
+								"12,360 SQ MI" ];
+	window.answerC = [ 					"WALLEYE", 
+								"THE TAR HEEL",  
+								"MINNEAPOLIS",
+								"WATERMELON",
+								"RED MAPLE",
+								"RED WINE",
+								"DAISY",
+								"SPAM", 
+								"DECEMBER 25, 1872",
+								"50,651 SQ MI" ];
+	window.answerD = [ 					"PERCH", 
+								"THE EMPIRE STATE",  
+								"SAINT PETER",
+								"HONEYCRISP APPLE",
+								"RED OAK",
+								"COCA-COLA",
+								"PINK AND WHITE LADY SLIPPER",
+								"VIENNA SAUSAGE", 
+								"FEBRUARY 7, 1787",
+								"71,405 SQ MI" ];
+	window.response = [ 					"THE CURRENT MINNESOTA WALLEYE STATE RECORD STANDS AT 17.8 POUNDS AND WAS CAUGHT IN 1979.",
+								"MINNESOTA HAS 11,842 LAKES OF 10 ACRES OR MORE. IN 1968 THEY FOUND 15,291 LAKES, OF WHICH 3,257 WERE DRY.",
+								"THE CAPITAL OF MINNESOTA CAN BE FOUND ON 75 REV DR MARTIN LUTHER KING JR BOULEVARD IN ST.PAUL.", 
+								"THE HONEYCRISP APPLE WAS ADOPTED AS THE STATE FRUIT IN 2006.",
+								"THE RED OR NORWAY PINE BECAME THE OFFICIAL STATE TREE IN 1953.",
+								"MINNESOTA PRODUCES 9.7 BILLION POUND OF MILK A YEARS.",
+								"IS KNOWN AS THE SHOWY LADY'S SLIPPERS, WAS ADOPTED AS THE STATE FLOWER IN 1902.",
+								"HAWAII CONSUMES MORE SPAM THAN ANY OTHER STATE, WITH FIVE CANS EATEN PER PERSON PER YEAR AND ABOUT 7 MILLION CANS TOTAL.", 
+								"MINNESOTA GAINED LEGAL EXISTENCE AS THE MINNESOTA TERRITORY IN 1849 AFTER AMERICAN CIVIL WAR AND THE DAKOTA WAR OF 1862.",
+								"MINNESOTA IS THE 12TH LARGEST IN AREA AND THE 22ND MOST POPULOUS STATE." ];
+							
+}
+						
