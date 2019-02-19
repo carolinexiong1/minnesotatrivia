@@ -1,0 +1,2 @@
+# minnesotatrivia
+Minnesota Trivia Game
